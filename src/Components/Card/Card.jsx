@@ -22,10 +22,8 @@ function Card({data}) {
                         <p className="mt-2 text-sm text-gray-300">
                             
                         </p>
-                        <button data={data} className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold hover:bg-red-500"><Link className='text-black hover:text-white' to={`/details/${id}`}>
-                        {"View Detail →"}
-                        </Link>
-                            
+                        <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold hover:bg-red-500 hover:text-white">
+                        View Detail →
                         </button>
                     </div>
                 </div>

@@ -7,7 +7,6 @@ import App from './App.jsx'
 import './index.css'
 import About from './Pages/About/About.jsx'
 import Contact from './Pages/Contact/Contact.jsx'
-import Detailpage from './Pages/Detailpage/Detailpage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,11 +20,7 @@ const router = createBrowserRouter([
   {
     path: "/contact-us",
     element: <Contact/>,
-  },
-  {
-    path: "/details/:id",
-    element: <Detailpage/>,
-  },
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
